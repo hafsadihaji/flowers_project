@@ -1,0 +1,301 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#navigation {
+    display: flex;
+    margin: 0px;
+    padding: 10px;
+    text-transform: capitalize;
+    justify-content: space-between;
+    width: auto;
+    font-size: medium;
+}
+
+ .menu{
+    display: flex;
+   gap: 30px;
+ }
+
+a{
+text-decoration: none;
+color: black;
+font-weight: bolder;
+
+}
+li{
+   list-style: none;
+   margin: 12px;
+   
+}
+.sign{
+    text-align: center;
+    color: white;
+    background-color: black;
+    font-size: large;
+    width: 150px;
+    height: 50px;
+    padding: 6px;
+  
+}
+.sign button{
+    background-color: transparent;
+    color: white;
+    font-size: larger;
+    text-transform: capitalize;
+    border: 7px solid black;
+    cursor: pointer;
+}
+#main-page{
+    background-image: url(images/main.jpg);
+    background-size: cover;
+    height: 1100px;
+    width: 100%;
+    padding: 60px;
+    line-height: 30px;
+    
+    
+}
+#title{
+    margin-top: 20%;
+    line-height: 70px;
+    text-align: left;
+    color: white;
+    font-size: 4rem;
+}
+pre#f{
+   color: white;
+}
+.button{
+    margin: 10px;  
+}
+#firstb{
+    justify-content: center;
+    text-transform:capitalize;
+    border: 3px solid black;
+    width: 100px;
+    height: 50px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+#secb{
+    justify-content: center;
+    text-transform:capitalize;
+    border: 3px solid white;
+    width: 150px;
+    height: 50px;
+    background-color: transparent;
+    color: white;
+    cursor: pointer;
+    margin: 12px;
+}
+#firstb:hover{
+    background-color:pink;
+   border: none;
+  
+}
+#secb:hover{
+    background-color:pink;
+   border: none;
+  
+}
+a:hover{
+    text-decoration: overline #A6FF96 2px;
+		
+}
+ /* for about */
+#about{
+     margin: 7px;
+    display: inline-block;
+    justify-content: space-around;
+     height: 650px;
+     width: 90%; 
+     
+     
+     
+}
+.right {
+    /* margin-left: 700px;
+    margin-top: -80%; */
+    display: flex;
+    
+}
+img{
+    margin: 50px;
+     /* margin-left: 70px; */
+    height: 550PX;
+    width: 600px;
+    
+   
+}
+h3{
+   margin-top: 80px;
+    color: black;
+    line-height: 70px;
+    font-size: 3rem;
+    
+}
+pre#sub{
+color: gray;
+line-height: 20px;
+
+}
+
+table{
+
+    margin: 10px;
+  
+}
+
+
+#ll{
+    text-align: left;
+   line-height: 59px; 
+   padding: 0;
+   color: black;
+   font-size: 1.8rem;
+   font-weight: bold;
+ 
+
+}
+th{
+    text-align: left;
+
+}
+td{
+   
+    padding:  0 13px ;
+    color: gray;
+
+
+}
+hr {
+  border: dotted pink 10px;
+  border-bottom: none;
+  width: 10%;
+  margin: 100px auto;
+  margin-top: 5%;
+}
+#second-section {
+   
+    height: 600PX;
+    width: 90%; 
+    margin: 80px;
+    
+}
+#s{
+display: flex;
+ 
+}
+img{
+    height: 550PX;
+    width: 600px;
+
+}
+h2{
+    text-align: left;
+    color: black;
+    margin-top: 11%;
+    padding: 7px;
+    line-height: 70px;
+    font-size: 2.4rem;
+
+}
+#par{
+    color:black;
+    margin-top: -27%;
+    line-height: 35px;
+}
+#tab{
+    margin: 10px 5px ;
+    justify-content: space-between;
+   
+    
+}
+.SP{
+    line-height: 30px;
+    color: black;
+    padding:  0px  10px;
+   
+}
+#price{
+    padding:  0px  10px;
+    line-height: 50px;
+    display: flex;
+     gap: 50px;
+    height: 600px;
+    width: 800px;
+    margin: 20%;
+    margin-top: 50px;
+    
+}
+.tab{
+    border:3px solid black;
+    text-align:left;
+    gap: 80%;
+    padding: 30px;
+    
+}
+.titles{
+    text-align: center;
+    line-height: 40px;
+    text-transform: capitalize;
+    
+}
+h5{
+    color:#3D3B40;
+    font-size: large;
+}
+h4{
+    font-size: 2rem;
+}
+h6{
+    text-transform: capitalize;
+    /* line-height: 30px; */
+    font-size: 1.7rem;
+}
+h6#mini-tit{
+    font-size: 1rem;
+    color:#3D3B40;
+    /* line-height: 50px; */
+    border-bottom: #3D3B40 solid 3px;
+}
+dt{
+    font-size: 2.5rem;
+    color: black;
+    font-weight: bolder;
+    padding: 5% 0;
+   
+
+}
+
+button#BTN{
+    border: none;
+    width: 350px;
+    height: 46px;
+    color: white;
+    background-color: black;
+    text-transform: capitalize;
+    font-size: 1.7rem;
+  
+}
+footer{
+   background-color: pink;
+    height: 100px;
+    display: flex;
+    border: solid 0px ;
+    line-height: 90px;
+    justify-content: space-around;
+
+}
+
+
+
+
+
+
+
+
+
