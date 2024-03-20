@@ -48,7 +48,7 @@ li{
     cursor: pointer;
 }
 #main-page{
-    background-image: url(images/main.jpg);
+    /* background-image: url(images/main.jpg); */
     background-size: cover;
     height: 1100px;
     width: 100%;
@@ -125,7 +125,7 @@ a:hover{
 img{
     margin: 50px;
      /* margin-left: 70px; */
-    height: 550PX;
+    height: 500px;
     width: 600px;
     
    
@@ -140,6 +140,7 @@ h3{
 pre#sub{
 color: gray;
 line-height: 20px;
+font-size:15px
 
 }
 
@@ -187,17 +188,12 @@ hr {
 }
 #s{
 display: flex;
- 
 }
-img{
-    height: 550PX;
-    width: 600px;
 
-}
 h2{
     text-align: left;
     color: black;
-    margin-top: 11%;
+    margin-top: 6%;
     padding: 7px;
     line-height: 70px;
     font-size: 2.4rem;
@@ -207,6 +203,8 @@ h2{
     color:black;
     margin-top: -27%;
     line-height: 35px;
+ font-size:15px;
+
 }
 #tab{
     margin: 10px 5px ;
@@ -222,7 +220,7 @@ h2{
 }
 #price{
     padding:  0px  10px;
-    line-height: 50px;
+    line-height: 43px;
     display: flex;
      gap: 50px;
     height: 600px;
@@ -281,6 +279,13 @@ button#BTN{
     font-size: 1.7rem;
   
 }
+.logo {
+    margin: -61px;
+}
+#img2{
+    width:100px;
+    height:90px;
+}
 footer{
    background-color: pink;
     height: 100px;
@@ -291,11 +296,42 @@ footer{
 
 }
 
+    /* Style for the slider container */
+    .slider-container {
+        position: absolute;
+        top: 33px;
+        left: -50px;
+        width: 104%;
+        height: 100%;
+        z-index: -1;
+      }
+  
+      /* Style for the slider images */
+      .slider img {
+        width: 100%;
+        height: auto;
+      }
+      .right img {
+        transition: transform 0.3s ease; 
+    }
 
+    /* Define hover effect */
+    .right img:hover {
+        transform: scale(1.1); 
+    }
 
+    #s > img:nth-child(2):hover {
+        transition: transform 0.3s ease; 
+        transform: scale(1.1); 
 
-
-
-
+    }
+    
+    #navigation {
+        position: sticky;
+        top: 0;
+        background-color: white; /* Add your desired background color */
+        z-index: 999; /* Ensure it's on top of other elements */
+        font-size: larger;
+    }
 
 
